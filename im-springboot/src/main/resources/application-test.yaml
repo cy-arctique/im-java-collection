@@ -1,0 +1,4 @@
+enable:
+  scheduling: true
+
+swagger.enable: false

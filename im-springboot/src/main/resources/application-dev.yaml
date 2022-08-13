@@ -1,0 +1,19 @@
+enable:
+  scheduling: false
+
+swagger.enable: true
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.4.110:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 600000
+    password:
